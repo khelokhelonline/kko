@@ -10,4 +10,8 @@ clone command:
 git clone https://github.com/khelokhelonline/kko
 
 
-#dependency help
+#netlify details
+
+deploy site: https://app.netlify.com/sites/khelokhelonline/deploys/60e410ee602b68a145efe020
+settings for khelokhelonline: https://app.netlify.com/sites/khelokhelonline/settings/general
+khelokhelonline url: https://60e410a817a276512c28842a--khelokhelonline.netlify.app/
