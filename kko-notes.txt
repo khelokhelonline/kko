@@ -1,0 +1,10 @@
+khelokhel notes:
+
+
+khelokhelonline git hub url: https://github.com/khelokhelonline/kko
+
+khelokhelonline git clone url: https://github.com/khelokhelonline/kko
+
+clone command:
+
+git clone https://github.com/khelokhelonline/kko
