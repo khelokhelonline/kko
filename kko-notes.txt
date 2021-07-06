@@ -8,3 +8,6 @@ khelokhelonline git clone url: https://github.com/khelokhelonline/kko
 clone command:
 
 git clone https://github.com/khelokhelonline/kko
+
+
+#dependency help
