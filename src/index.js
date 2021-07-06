@@ -97,7 +97,7 @@ class Game extends React.Component {
         });
         let status;
         if(winner) {
-            status = 'Congratulations ' + (winner.localeCompare('X') ? 'Player 2' : 'Player 1') + '! You are the awesome winner of this awesome tic-toe game';
+            status = "Winner: " + winner;
         } else {
             status = 'Next player: ' + (this.state.stateXIsNext ? 'Player 1' : 'Player 2');
         }
