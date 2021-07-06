@@ -45,9 +45,9 @@ class Board extends React.Component {
         const winner = calculateWinner(this.state.stateSquares);
         let status;
         if(winner) {
-            status = 'Congratulations ' + (winner.localeCompare('X') ? 'Pooja' : 'Anil') + '! You are the awesome winner of this awesome tic-toe game';
+            status = 'Congratulations ' + (winner.localeCompare('X') ? 'Player 2' : 'Player 1') + '! You are the awesome winner of this awesome tic-toe game';
         } else {
-            status = 'Next player: ' + (this.state.stateXIsNext ? 'Anil' : 'Pooja');
+            status = 'Next player: ' + (this.state.stateXIsNext ? 'Player 1' : 'Player 2');
         }
 
         return (
