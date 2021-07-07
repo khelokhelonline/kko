@@ -1,4 +1,5 @@
 body {
+    background-color: powderblue;
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
@@ -47,4 +48,12 @@ ol, ul {
 
 .game-info {
     margin-left: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
