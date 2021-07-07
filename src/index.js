@@ -115,7 +115,7 @@ class Game extends React.Component {
                     <ol>{moves}</ol>
                 </div>
                 <div className="footer">
-                    <div>Author:Anil & Pooja Pandey</div>
+                    <div>Author: Anil & Pooja Pandey</div>
                     <div>© 2021 APP Technologies.<br />All rights reserved.</div>
                     <div>Contact us: <address>khelokhelonline@gmail.com</address></div>
                 </div>
