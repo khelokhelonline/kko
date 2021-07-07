@@ -97,12 +97,15 @@ class Game extends React.Component {
         });
         let status;
         if(winner) {
-            status = 'Winner: Player ' + winner;
+            status = 'Winner: Player ' + (winner.localeCompare('X') ? '2 (' : '1 (') + winner + ')';
         } else {
-            status = 'Next player: ' + (this.state.stateXIsNext ? 'Player X' : 'Player O');
+            status = 'Next player: ' + (this.state.stateXIsNext ? 'Player 1 (X)' : 'Player 2 (O)');
         }
         return (
             <div className="game">
+                <div className="header">
+                    <div><cite><q><b>Tic-tac-toe</b></q></cite></div>
+                </div>
                 <div className="game-board">
                     <Board
                         stateSquares={current.stateSquares}
