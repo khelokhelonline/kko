@@ -1,14 +1,7 @@
-.header {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    margin: -30px;
-}
 body {
     background-color: powderblue;
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 40px;
+    margin: 20px;
 }
 
 ol, ul {
@@ -22,7 +15,7 @@ ol, ul {
 }
 
 .status {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .square {
