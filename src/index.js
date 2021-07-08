@@ -3,7 +3,7 @@ import React from "react";
 import './index.css'
 
 function Square(props) {
-//It is a function component.
+//It is a function component..
         return (
             <button className="square" onClick={props.onClick}>
                 {props.value}
