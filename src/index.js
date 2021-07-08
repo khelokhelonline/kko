@@ -4,7 +4,7 @@ import './index.css'
 
 function Square(props) {
 //It is a function component.
-    //Todo:add function description here.....
+    //Todo:add function description here......
         return (
             <button className="square" onClick={props.onClick}>
                 {props.value}
