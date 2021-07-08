@@ -17,3 +17,7 @@ settings for khelokhelonline: https://app.netlify.com/sites/khelokhelonline/sett
 khelokhelonline url: https://60e410a817a276512c28842a--khelokhelonline.netlify.app/
 
 khelokhelonline site: https://khelokhelonline.netlify.app/
+
+*************************Git hub details****************************
+history/commit: https://github.com/khelokhelonline/kko/commit
+********************************************************************
